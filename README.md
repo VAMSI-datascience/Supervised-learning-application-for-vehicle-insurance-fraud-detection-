@@ -115,4 +115,7 @@ Name of the files, Length of Date value in FileName, Length of Time value in Fil
 
 ### The below image gives the idea of the predicted csv file which is saved to my folder..
 
+![jjytt](https://user-images.githubusercontent.com/51853466/82145201-bb056300-9866-11ea-8a9a-ba732928a137.PNG)
+
++ And if the right format of the csv is uploaded to the custom predict...it will yield the predicted csv to the folder...
 
