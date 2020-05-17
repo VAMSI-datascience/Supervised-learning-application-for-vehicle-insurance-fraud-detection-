@@ -109,3 +109,7 @@ Name of the files, Length of Date value in FileName, Length of Time value in Fil
 
 [You can check here the deployed app to heroku](https://insurancefrauddetect.herokuapp.com/)
 
+### The below image gives you the glimpse of the heroku web app
+
+
+
