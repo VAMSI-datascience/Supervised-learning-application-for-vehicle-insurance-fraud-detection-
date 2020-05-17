@@ -111,5 +111,8 @@ Name of the files, Length of Date value in FileName, Length of Time value in Fil
 
 ### The below image gives you the glimpse of the heroku web app
 
+![bbf](https://user-images.githubusercontent.com/51853466/82145157-809bc600-9866-11ea-8dd5-37b81f621c78.PNG)
+
+### The below image gives the idea of the predicted csv file which is saved to my folder..
 
 
