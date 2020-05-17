@@ -12,7 +12,7 @@ Link for the web application- https://insurancefrauddetect.herokuapp.com/
  + The client will send data in multiple sets of files in batches at a given location. The data has been extracted from the census bureau. 
     The data contains the following attributes:
 Features:
-1.	months_as_customer:It denotes the number of months for which the customer is associated with the insurance company.
+1.	*months_as_customer*:It denotes the number of months for which the customer is associated with the insurance company.
 2.	age: continuous. It denotes the age of the person.
 3.	policy_number: The policy number.
 4.	policy_bind_date: Start date of the policy.
