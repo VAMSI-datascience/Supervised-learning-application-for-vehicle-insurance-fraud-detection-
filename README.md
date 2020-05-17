@@ -1,7 +1,7 @@
 # Supervised-learning-application-for-vehicle-insurance-fraud-detection-
 
 
-## This project is mainly focused on building a classification methodology to determine whether a customer is placing a fraudulent insurance claim
+## This project is mainly focused on building a classification methodology to determine whether a customer is placing a fraudulent insurance claim for his vehicle or not..
 
 ### Architecture
 
