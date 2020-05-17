@@ -84,9 +84,13 @@ In this step, we perform different sets of validation on the given set of traini
 2) **Data Preprocessing**
 
 a)	Drop the columns not required for prediction.
+
 b)	For this dataset, the null values were replaced with ‘?’ in the client data. Those ‘?’ have been replaced withNaN values.
+
 c)	Check for null values in the columns. If present, impute the null values using the categorical imputer.
+
 d)	Replace and encode the categorical values with numeric values.
+
 e)	Scale the numeric values using the standard scaler.
 
 3) **Clustering** -KMeans algorithm is used to create clusters in the preprocessed data. The optimum number of clusters is selected by plotting the elbow plot, and for the dynamic selection of the number of clusters, we are using "KneeLocator" function. The idea behind clustering is to implement different algorithms
@@ -95,8 +99,10 @@ The Kmeans model is trained over preprocessed data, and the model is saved for f
 4) **Model Selection** – After the clusters have been created, we find the best model for each cluster. We are using two algorithms, “SVM” and "XGBoost". For each cluster, both the algorithms are passed with the best parameters derived from GridSearch. We calculate the AUC scores for both models and select the model with the best score. Similarly, the model is selected for each cluster. All the models for every cluster are saved for use in prediction
 
 ## Prediction Data Description
+
 The Client will send the data in multiple sets of files in batches at a given location. Data will contain the annual income of various persons.
 Apart from prediction files, we also require a "schema" file from the client, which contains all the relevant information about the training files such as:
+
 Name of the files, Length of Date value in FileName, Length of Time value in FileName, Number of Columns, Name of the Columns and their datatype
 
 ## Deployment to Heroku:
